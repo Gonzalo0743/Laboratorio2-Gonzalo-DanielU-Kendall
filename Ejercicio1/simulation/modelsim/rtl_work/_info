@@ -1,0 +1,335 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/TEC/II Semestre 2024/Taller/Lab2/Ejercicio1/simulation/modelsim
+vALU
+Z1 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+Z2 !s110 1724104893
+!i10b 1
+!s100 :lLb<Y9ki9?;ahejB=iJE1
+Z3 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I_B;2d>De<FAlPM1H2l7_?3
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+S1
+R0
+w1724104876
+8D:/TEC/II Semestre 2024/Taller/Lab2/Ejercicio1/ALU.sv
+FD:/TEC/II Semestre 2024/Taller/Lab2/Ejercicio1/ALU.sv
+!i122 0
+L0 1 104
+Z5 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z6 !s108 1724104893.000000
+!s107 D:/TEC/II Semestre 2024/Taller/Lab2/Ejercicio1/ALU.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+D:/TEC/II Semestre 2024/Taller/Lab2/Ejercicio1|D:/TEC/II Semestre 2024/Taller/Lab2/Ejercicio1/ALU.sv|
+!i113 1
+Z7 o-sv -work work
+Z8 !s92 -sv -work work {+incdir+D:/TEC/II Semestre 2024/Taller/Lab2/Ejercicio1}
+Z9 tCvgOpt 0
+n@a@l@u
+vALU_tb
+R1
+Z10 !s110 1724104894
+!i10b 1
+!s100 BKl`PTAXKd^LkOljIXl041
+R3
+IkT[LaF3U[lnl9QNFfSMMM0
+R4
+S1
+R0
+w1724104799
+8D:/TEC/II Semestre 2024/Taller/Lab2/Ejercicio1/ALU_tb.sv
+FD:/TEC/II Semestre 2024/Taller/Lab2/Ejercicio1/ALU_tb.sv
+!i122 11
+L0 1 95
+R5
+r1
+!s85 0
+31
+Z11 !s108 1724104894.000000
+!s107 D:/TEC/II Semestre 2024/Taller/Lab2/Ejercicio1/ALU_tb.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+D:/TEC/II Semestre 2024/Taller/Lab2/Ejercicio1|D:/TEC/II Semestre 2024/Taller/Lab2/Ejercicio1/ALU_tb.sv|
+!i113 1
+R7
+R8
+R9
+n@a@l@u_tb
+vAND_M
+R1
+R2
+!i10b 1
+!s100 2AZ4PU]GLF]z<?AFTCcN81
+R3
+I[LHYeG@?glcWADQlJ4joV2
+R4
+S1
+R0
+w1724014645
+8D:/TEC/II Semestre 2024/Taller/Lab2/Ejercicio1/AND.sv
+FD:/TEC/II Semestre 2024/Taller/Lab2/Ejercicio1/AND.sv
+!i122 5
+Z12 L0 1 18
+R5
+r1
+!s85 0
+31
+R6
+!s107 D:/TEC/II Semestre 2024/Taller/Lab2/Ejercicio1/AND.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+D:/TEC/II Semestre 2024/Taller/Lab2/Ejercicio1|D:/TEC/II Semestre 2024/Taller/Lab2/Ejercicio1/AND.sv|
+!i113 1
+R7
+R8
+R9
+n@a@n@d_@m
+vdispConv
+R1
+R10
+!i10b 1
+!s100 E;Aee:^=?=n0]mN>PhBgo2
+R3
+IPo8K6^R[<m`S[z2zdn3O32
+R4
+S1
+R0
+w1724013810
+8D:/TEC/II Semestre 2024/Taller/Lab2/Ejercicio1/dispConv.sv
+FD:/TEC/II Semestre 2024/Taller/Lab2/Ejercicio1/dispConv.sv
+!i122 10
+L0 1 26
+R5
+r1
+!s85 0
+31
+R11
+!s107 D:/TEC/II Semestre 2024/Taller/Lab2/Ejercicio1/dispConv.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+D:/TEC/II Semestre 2024/Taller/Lab2/Ejercicio1|D:/TEC/II Semestre 2024/Taller/Lab2/Ejercicio1/dispConv.sv|
+!i113 1
+R7
+R8
+R9
+ndisp@conv
+vDiv
+R1
+R10
+!i10b 1
+!s100 G5FBG?eH7zl7C^E>I49=j3
+R3
+IOmUgfXUX7A9?_7g1J9hcL2
+R4
+S1
+R0
+w1724013766
+8D:/TEC/II Semestre 2024/Taller/Lab2/Ejercicio1/Div.sv
+FD:/TEC/II Semestre 2024/Taller/Lab2/Ejercicio1/Div.sv
+!i122 9
+L0 1 30
+R5
+r1
+!s85 0
+31
+R11
+!s107 D:/TEC/II Semestre 2024/Taller/Lab2/Ejercicio1/Div.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+D:/TEC/II Semestre 2024/Taller/Lab2/Ejercicio1|D:/TEC/II Semestre 2024/Taller/Lab2/Ejercicio1/Div.sv|
+!i113 1
+R7
+R8
+R9
+n@div
+vMult
+R1
+R10
+!i10b 1
+!s100 WX5giJXo@R3g<;I5N9?Gh1
+R3
+IGnmN^e0JEBfL42@OM0o8H2
+R4
+S1
+R0
+w1724013747
+8D:/TEC/II Semestre 2024/Taller/Lab2/Ejercicio1/Mult.sv
+FD:/TEC/II Semestre 2024/Taller/Lab2/Ejercicio1/Mult.sv
+!i122 8
+L0 1 22
+R5
+r1
+!s85 0
+31
+R11
+!s107 D:/TEC/II Semestre 2024/Taller/Lab2/Ejercicio1/Mult.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+D:/TEC/II Semestre 2024/Taller/Lab2/Ejercicio1|D:/TEC/II Semestre 2024/Taller/Lab2/Ejercicio1/Mult.sv|
+!i113 1
+R7
+R8
+R9
+n@mult
+vOR_M
+R1
+R2
+!i10b 1
+!s100 bzeVS=o8cPPA<e6X=bJfg0
+R3
+IXNo@^FD2Z^3^U6E0[Uel31
+R4
+S1
+R0
+Z13 w1724014674
+8D:/TEC/II Semestre 2024/Taller/Lab2/Ejercicio1/OR.sv
+FD:/TEC/II Semestre 2024/Taller/Lab2/Ejercicio1/OR.sv
+!i122 4
+R12
+R5
+r1
+!s85 0
+31
+R6
+!s107 D:/TEC/II Semestre 2024/Taller/Lab2/Ejercicio1/OR.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+D:/TEC/II Semestre 2024/Taller/Lab2/Ejercicio1|D:/TEC/II Semestre 2024/Taller/Lab2/Ejercicio1/OR.sv|
+!i113 1
+R7
+R8
+R9
+n@o@r_@m
+vShiftLeft
+R1
+R2
+!i10b 1
+!s100 knDMMn7ORRUXIK8O4MLj63
+R3
+IPdYllDcX_=iQBLF_b;9^Q0
+R4
+S1
+R0
+w1724013522
+8D:/TEC/II Semestre 2024/Taller/Lab2/Ejercicio1/ShiftLeft.sv
+FD:/TEC/II Semestre 2024/Taller/Lab2/Ejercicio1/ShiftLeft.sv
+!i122 3
+L0 1 14
+R5
+r1
+!s85 0
+31
+R6
+!s107 D:/TEC/II Semestre 2024/Taller/Lab2/Ejercicio1/ShiftLeft.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+D:/TEC/II Semestre 2024/Taller/Lab2/Ejercicio1|D:/TEC/II Semestre 2024/Taller/Lab2/Ejercicio1/ShiftLeft.sv|
+!i113 1
+R7
+R8
+R9
+n@shift@left
+vShiftRight
+R1
+R2
+!i10b 1
+!s100 DIMd6@j[IaK^WieJL8Rak1
+R3
+IaQ?dXYbmYA0IRQ>B<6h7O1
+R4
+S1
+R0
+w1724013506
+8D:/TEC/II Semestre 2024/Taller/Lab2/Ejercicio1/ShiftRight.sv
+FD:/TEC/II Semestre 2024/Taller/Lab2/Ejercicio1/ShiftRight.sv
+!i122 2
+L0 1 13
+R5
+r1
+!s85 0
+31
+R6
+!s107 D:/TEC/II Semestre 2024/Taller/Lab2/Ejercicio1/ShiftRight.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+D:/TEC/II Semestre 2024/Taller/Lab2/Ejercicio1|D:/TEC/II Semestre 2024/Taller/Lab2/Ejercicio1/ShiftRight.sv|
+!i113 1
+R7
+R8
+R9
+n@shift@right
+vSuma
+R1
+R10
+!i10b 1
+!s100 ]kgiMXV688_^aTmEG0a`i2
+R3
+I9Zz<Pon0j7_9;PXnFdhRN3
+R4
+S1
+R0
+w1724014321
+8D:/TEC/II Semestre 2024/Taller/Lab2/Ejercicio1/Suma.sv
+FD:/TEC/II Semestre 2024/Taller/Lab2/Ejercicio1/Suma.sv
+!i122 7
+L0 1 42
+R5
+r1
+!s85 0
+31
+R11
+!s107 D:/TEC/II Semestre 2024/Taller/Lab2/Ejercicio1/Suma.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+D:/TEC/II Semestre 2024/Taller/Lab2/Ejercicio1|D:/TEC/II Semestre 2024/Taller/Lab2/Ejercicio1/Suma.sv|
+!i113 1
+R7
+R8
+R9
+n@suma
+vSumadorCom
+R1
+R10
+!i10b 1
+!s100 ]>gzZWN=[NeROlQ^NaAzS2
+R3
+I??e76I8`6zCk`8MhI2;Gj2
+R4
+S1
+R0
+w1724013701
+8D:/TEC/II Semestre 2024/Taller/Lab2/Ejercicio1/SumadorCom.sv
+FD:/TEC/II Semestre 2024/Taller/Lab2/Ejercicio1/SumadorCom.sv
+!i122 6
+L0 1 10
+R5
+r1
+!s85 0
+31
+R6
+!s107 D:/TEC/II Semestre 2024/Taller/Lab2/Ejercicio1/SumadorCom.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+D:/TEC/II Semestre 2024/Taller/Lab2/Ejercicio1|D:/TEC/II Semestre 2024/Taller/Lab2/Ejercicio1/SumadorCom.sv|
+!i113 1
+R7
+R8
+R9
+n@sumador@com
+vXOR_M
+R1
+R2
+!i10b 1
+!s100 Xj9Z@AZXZGCQ]JC3iVDR@0
+R3
+I]ifOkjH<WkW7K=_DKnQOd2
+R4
+S1
+R0
+R13
+8D:/TEC/II Semestre 2024/Taller/Lab2/Ejercicio1/XOR.sv
+FD:/TEC/II Semestre 2024/Taller/Lab2/Ejercicio1/XOR.sv
+!i122 1
+R12
+R5
+r1
+!s85 0
+31
+R6
+!s107 D:/TEC/II Semestre 2024/Taller/Lab2/Ejercicio1/XOR.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+D:/TEC/II Semestre 2024/Taller/Lab2/Ejercicio1|D:/TEC/II Semestre 2024/Taller/Lab2/Ejercicio1/XOR.sv|
+!i113 1
+R7
+R8
+R9
+n@x@o@r_@m

@@ -1,0 +1,171 @@
+# Reading pref.tcl
+# do Ejercicio1_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying D:/Programas/Quartus/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -sv -work work +incdir+D:/TEC/II\ Semestre\ 2024/Taller/Lab2/Ejercicio1 {D:/TEC/II Semestre 2024/Taller/Lab2/Ejercicio1/ALU.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:01:33 on Aug 19,2024
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/TEC/II Semestre 2024/Taller/Lab2/Ejercicio1" D:/TEC/II Semestre 2024/Taller/Lab2/Ejercicio1/ALU.sv 
+# -- Compiling module ALU
+# 
+# Top level modules:
+# 	ALU
+# End time: 16:01:33 on Aug 19,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+D:/TEC/II\ Semestre\ 2024/Taller/Lab2/Ejercicio1 {D:/TEC/II Semestre 2024/Taller/Lab2/Ejercicio1/XOR.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:01:33 on Aug 19,2024
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/TEC/II Semestre 2024/Taller/Lab2/Ejercicio1" D:/TEC/II Semestre 2024/Taller/Lab2/Ejercicio1/XOR.sv 
+# -- Compiling module XOR_M
+# 
+# Top level modules:
+# 	XOR_M
+# End time: 16:01:33 on Aug 19,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+D:/TEC/II\ Semestre\ 2024/Taller/Lab2/Ejercicio1 {D:/TEC/II Semestre 2024/Taller/Lab2/Ejercicio1/ShiftRight.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:01:33 on Aug 19,2024
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/TEC/II Semestre 2024/Taller/Lab2/Ejercicio1" D:/TEC/II Semestre 2024/Taller/Lab2/Ejercicio1/ShiftRight.sv 
+# -- Compiling module ShiftRight
+# 
+# Top level modules:
+# 	ShiftRight
+# End time: 16:01:33 on Aug 19,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+D:/TEC/II\ Semestre\ 2024/Taller/Lab2/Ejercicio1 {D:/TEC/II Semestre 2024/Taller/Lab2/Ejercicio1/ShiftLeft.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:01:33 on Aug 19,2024
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/TEC/II Semestre 2024/Taller/Lab2/Ejercicio1" D:/TEC/II Semestre 2024/Taller/Lab2/Ejercicio1/ShiftLeft.sv 
+# -- Compiling module ShiftLeft
+# 
+# Top level modules:
+# 	ShiftLeft
+# End time: 16:01:33 on Aug 19,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+D:/TEC/II\ Semestre\ 2024/Taller/Lab2/Ejercicio1 {D:/TEC/II Semestre 2024/Taller/Lab2/Ejercicio1/OR.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:01:33 on Aug 19,2024
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/TEC/II Semestre 2024/Taller/Lab2/Ejercicio1" D:/TEC/II Semestre 2024/Taller/Lab2/Ejercicio1/OR.sv 
+# -- Compiling module OR_M
+# 
+# Top level modules:
+# 	OR_M
+# End time: 16:01:33 on Aug 19,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+D:/TEC/II\ Semestre\ 2024/Taller/Lab2/Ejercicio1 {D:/TEC/II Semestre 2024/Taller/Lab2/Ejercicio1/AND.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:01:33 on Aug 19,2024
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/TEC/II Semestre 2024/Taller/Lab2/Ejercicio1" D:/TEC/II Semestre 2024/Taller/Lab2/Ejercicio1/AND.sv 
+# -- Compiling module AND_M
+# 
+# Top level modules:
+# 	AND_M
+# End time: 16:01:33 on Aug 19,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+D:/TEC/II\ Semestre\ 2024/Taller/Lab2/Ejercicio1 {D:/TEC/II Semestre 2024/Taller/Lab2/Ejercicio1/SumadorCom.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:01:33 on Aug 19,2024
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/TEC/II Semestre 2024/Taller/Lab2/Ejercicio1" D:/TEC/II Semestre 2024/Taller/Lab2/Ejercicio1/SumadorCom.sv 
+# -- Compiling module SumadorCom
+# 
+# Top level modules:
+# 	SumadorCom
+# End time: 16:01:34 on Aug 19,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+D:/TEC/II\ Semestre\ 2024/Taller/Lab2/Ejercicio1 {D:/TEC/II Semestre 2024/Taller/Lab2/Ejercicio1/Suma.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:01:34 on Aug 19,2024
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/TEC/II Semestre 2024/Taller/Lab2/Ejercicio1" D:/TEC/II Semestre 2024/Taller/Lab2/Ejercicio1/Suma.sv 
+# -- Compiling module Suma
+# 
+# Top level modules:
+# 	Suma
+# End time: 16:01:34 on Aug 19,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+D:/TEC/II\ Semestre\ 2024/Taller/Lab2/Ejercicio1 {D:/TEC/II Semestre 2024/Taller/Lab2/Ejercicio1/Mult.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:01:34 on Aug 19,2024
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/TEC/II Semestre 2024/Taller/Lab2/Ejercicio1" D:/TEC/II Semestre 2024/Taller/Lab2/Ejercicio1/Mult.sv 
+# -- Compiling module Mult
+# 
+# Top level modules:
+# 	Mult
+# End time: 16:01:34 on Aug 19,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+D:/TEC/II\ Semestre\ 2024/Taller/Lab2/Ejercicio1 {D:/TEC/II Semestre 2024/Taller/Lab2/Ejercicio1/Div.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:01:34 on Aug 19,2024
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/TEC/II Semestre 2024/Taller/Lab2/Ejercicio1" D:/TEC/II Semestre 2024/Taller/Lab2/Ejercicio1/Div.sv 
+# -- Compiling module Div
+# 
+# Top level modules:
+# 	Div
+# End time: 16:01:34 on Aug 19,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+D:/TEC/II\ Semestre\ 2024/Taller/Lab2/Ejercicio1 {D:/TEC/II Semestre 2024/Taller/Lab2/Ejercicio1/dispConv.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:01:34 on Aug 19,2024
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/TEC/II Semestre 2024/Taller/Lab2/Ejercicio1" D:/TEC/II Semestre 2024/Taller/Lab2/Ejercicio1/dispConv.sv 
+# -- Compiling module dispConv
+# 
+# Top level modules:
+# 	dispConv
+# End time: 16:01:34 on Aug 19,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -sv -work work +incdir+D:/TEC/II\ Semestre\ 2024/Taller/Lab2/Ejercicio1 {D:/TEC/II Semestre 2024/Taller/Lab2/Ejercicio1/ALU_tb.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:01:34 on Aug 19,2024
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/TEC/II Semestre 2024/Taller/Lab2/Ejercicio1" D:/TEC/II Semestre 2024/Taller/Lab2/Ejercicio1/ALU_tb.sv 
+# -- Compiling module ALU_tb
+# 
+# Top level modules:
+# 	ALU_tb
+# End time: 16:01:34 on Aug 19,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  ALU_tb
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs=""+acc"" ALU_tb 
+# Start time: 16:01:34 on Aug 19,2024
+# Loading sv_std.std
+# Loading work.ALU_tb
+# Loading work.ALU
+# Loading work.Suma
+# Loading work.Mult
+# Loading work.Div
+# Loading work.ShiftLeft
+# Loading work.ShiftRight
+# Loading work.AND_M
+# Loading work.OR_M
+# Loading work.XOR_M
+# Loading work.dispConv
+# Loading work.SumadorCom
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (4) for port 'ZFlag'. The port definition is at: D:/TEC/II Semestre 2024/Taller/Lab2/Ejercicio1/ALU.sv(6).
+#    Time: 0 ps  Iteration: 0  Instance: /ALU_tb/modulo File: D:/TEC/II Semestre 2024/Taller/Lab2/Ejercicio1/ALU_tb.sv Line: 5
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (4) for port 'NFlag'. The port definition is at: D:/TEC/II Semestre 2024/Taller/Lab2/Ejercicio1/ALU.sv(6).
+#    Time: 0 ps  Iteration: 0  Instance: /ALU_tb/modulo File: D:/TEC/II Semestre 2024/Taller/Lab2/Ejercicio1/ALU_tb.sv Line: 5
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (4) for port 'CFlag'. The port definition is at: D:/TEC/II Semestre 2024/Taller/Lab2/Ejercicio1/ALU.sv(6).
+#    Time: 0 ps  Iteration: 0  Instance: /ALU_tb/modulo File: D:/TEC/II Semestre 2024/Taller/Lab2/Ejercicio1/ALU_tb.sv Line: 5
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (4) for port 'VFlag'. The port definition is at: D:/TEC/II Semestre 2024/Taller/Lab2/Ejercicio1/ALU.sv(6).
+#    Time: 0 ps  Iteration: 0  Instance: /ALU_tb/modulo File: D:/TEC/II Semestre 2024/Taller/Lab2/Ejercicio1/ALU_tb.sv Line: 5
+# ** Warning: (vsim-3015) [PCDPC] - Port size (7) does not match connection size (4) for port 'dispOut'. The port definition is at: D:/TEC/II Semestre 2024/Taller/Lab2/Ejercicio1/ALU.sv(7).
+#    Time: 0 ps  Iteration: 0  Instance: /ALU_tb/modulo File: D:/TEC/II Semestre 2024/Taller/Lab2/Ejercicio1/ALU_tb.sv Line: 5
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (4) for port 'C'. The port definition is at: D:/TEC/II Semestre 2024/Taller/Lab2/Ejercicio1/Mult.sv(4).
+#    Time: 0 ps  Iteration: 0  Instance: /ALU_tb/modulo/mult File: D:/TEC/II Semestre 2024/Taller/Lab2/Ejercicio1/ALU.sv Line: 22
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# End time: 16:01:49 on Aug 19,2024, Elapsed time: 0:00:15
+# Errors: 0, Warnings: 6

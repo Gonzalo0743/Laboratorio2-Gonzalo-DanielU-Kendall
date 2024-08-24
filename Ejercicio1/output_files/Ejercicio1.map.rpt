@@ -1,0 +1,431 @@
+Analysis & Elaboration report for Ejercicio1
+Mon Aug 19 16:01:25 2024
+Quartus Prime Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Analysis & Elaboration Summary
+  3. Parallel Compilation
+  4. Parameter Settings for User Entity Instance: Top-level Entity: |ALU
+  5. Parameter Settings for User Entity Instance: Suma:sum
+  6. Parameter Settings for User Entity Instance: Suma:res
+  7. Parameter Settings for User Entity Instance: Mult:mult
+  8. Parameter Settings for User Entity Instance: Div:div
+  9. Parameter Settings for User Entity Instance: ShiftLeft:sll
+ 10. Parameter Settings for User Entity Instance: ShiftRight:srl
+ 11. Parameter Settings for User Entity Instance: AND_M:andG
+ 12. Parameter Settings for User Entity Instance: OR_M:orG
+ 13. Parameter Settings for User Entity Instance: XOR_M:xorG
+ 14. Analysis & Elaboration Settings
+ 15. Port Connectivity Checks: "XOR_M:xorG"
+ 16. Port Connectivity Checks: "OR_M:orG"
+ 17. Port Connectivity Checks: "AND_M:andG"
+ 18. Port Connectivity Checks: "ShiftRight:srl"
+ 19. Port Connectivity Checks: "ShiftLeft:sll"
+ 20. Port Connectivity Checks: "Div:div"
+ 21. Port Connectivity Checks: "Mult:mult"
+ 22. Port Connectivity Checks: "Suma:res"
+ 23. Port Connectivity Checks: "Suma:sum"
+ 24. Analysis & Elaboration Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 2020  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and any partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details, at
+https://fpgasoftware.intel.com/eula.
+
+
+
++-----------------------------------------------------------------------------+
+; Analysis & Elaboration Summary                                              ;
++-------------------------------+---------------------------------------------+
+; Analysis & Elaboration Status ; Successful - Mon Aug 19 16:01:25 2024       ;
+; Quartus Prime Version         ; 20.1.1 Build 720 11/11/2020 SJ Lite Edition ;
+; Revision Name                 ; Ejercicio1                                  ;
+; Top-level Entity Name         ; ALU                                         ;
+; Family                        ; Cyclone V                                   ;
+; Logic utilization (in ALMs)   ; N/A until Partition Merge                   ;
+; Total registers               ; N/A until Partition Merge                   ;
+; Total pins                    ; N/A until Partition Merge                   ;
+; Total virtual pins            ; N/A until Partition Merge                   ;
+; Total block memory bits       ; N/A until Partition Merge                   ;
+; Total PLLs                    ; N/A until Partition Merge                   ;
+; Total DLLs                    ; N/A until Partition Merge                   ;
++-------------------------------+---------------------------------------------+
+
+
++------------------------------------------+
+; Parallel Compilation                     ;
++----------------------------+-------------+
+; Processors                 ; Number      ;
++----------------------------+-------------+
+; Number detected on machine ; 12          ;
+; Maximum allowed            ; 6           ;
+;                            ;             ;
+; Average used               ; 1.00        ;
+; Maximum used               ; 1           ;
+;                            ;             ;
+; Usage by Processor         ; % Time Used ;
+;     Processor 1            ; 100.0%      ;
++----------------------------+-------------+
+
+
++---------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: Top-level Entity: |ALU ;
++----------------+-------+--------------------------------------------+
+; Parameter Name ; Value ; Type                                       ;
++----------------+-------+--------------------------------------------+
+; N              ; 4     ; Signed Integer                             ;
++----------------+-------+--------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-------------------------------------------------------+
+; Parameter Settings for User Entity Instance: Suma:sum ;
++----------------+-------+------------------------------+
+; Parameter Name ; Value ; Type                         ;
++----------------+-------+------------------------------+
+; N              ; 4     ; Signed Integer               ;
++----------------+-------+------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-------------------------------------------------------+
+; Parameter Settings for User Entity Instance: Suma:res ;
++----------------+-------+------------------------------+
+; Parameter Name ; Value ; Type                         ;
++----------------+-------+------------------------------+
+; N              ; 4     ; Signed Integer               ;
++----------------+-------+------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++--------------------------------------------------------+
+; Parameter Settings for User Entity Instance: Mult:mult ;
++----------------+-------+-------------------------------+
+; Parameter Name ; Value ; Type                          ;
++----------------+-------+-------------------------------+
+; N              ; 4     ; Signed Integer                ;
++----------------+-------+-------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++------------------------------------------------------+
+; Parameter Settings for User Entity Instance: Div:div ;
++----------------+-------+-----------------------------+
+; Parameter Name ; Value ; Type                        ;
++----------------+-------+-----------------------------+
+; N              ; 4     ; Signed Integer              ;
++----------------+-------+-----------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: ShiftLeft:sll ;
++----------------+-------+-----------------------------------+
+; Parameter Name ; Value ; Type                              ;
++----------------+-------+-----------------------------------+
+; N              ; 4     ; Signed Integer                    ;
++----------------+-------+-----------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: ShiftRight:srl ;
++----------------+-------+------------------------------------+
+; Parameter Name ; Value ; Type                               ;
++----------------+-------+------------------------------------+
+; N              ; 4     ; Signed Integer                     ;
++----------------+-------+------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++---------------------------------------------------------+
+; Parameter Settings for User Entity Instance: AND_M:andG ;
++----------------+-------+--------------------------------+
+; Parameter Name ; Value ; Type                           ;
++----------------+-------+--------------------------------+
+; N              ; 4     ; Signed Integer                 ;
++----------------+-------+--------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-------------------------------------------------------+
+; Parameter Settings for User Entity Instance: OR_M:orG ;
++----------------+-------+------------------------------+
+; Parameter Name ; Value ; Type                         ;
++----------------+-------+------------------------------+
+; N              ; 4     ; Signed Integer               ;
++----------------+-------+------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++---------------------------------------------------------+
+; Parameter Settings for User Entity Instance: XOR_M:xorG ;
++----------------+-------+--------------------------------+
+; Parameter Name ; Value ; Type                           ;
++----------------+-------+--------------------------------+
+; N              ; 4     ; Signed Integer                 ;
++----------------+-------+--------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++---------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Elaboration Settings                                                                                           ;
++---------------------------------------------------------------------------------+--------------------+--------------------+
+; Option                                                                          ; Setting            ; Default Value      ;
++---------------------------------------------------------------------------------+--------------------+--------------------+
+; Device                                                                          ; 5CSXFC6D6F31C6     ;                    ;
+; Top-level entity name                                                           ; ALU                ; Ejercicio1         ;
+; Family name                                                                     ; Cyclone V          ; Cyclone V          ;
+; Use smart compilation                                                           ; Off                ; Off                ;
+; Enable parallel Assembler and Timing Analyzer during compilation                ; On                 ; On                 ;
+; Enable compact report table                                                     ; Off                ; Off                ;
+; Restructure Multiplexers                                                        ; Auto               ; Auto               ;
+; MLAB Add Timing Constraints For Mixed-Port Feed-Through Mode Setting Don't Care ; Off                ; Off                ;
+; Create Debugging Nodes for IP Cores                                             ; Off                ; Off                ;
+; Preserve fewer node names                                                       ; On                 ; On                 ;
+; Intel FPGA IP Evaluation Mode                                                   ; Enable             ; Enable             ;
+; Verilog Version                                                                 ; Verilog_2001       ; Verilog_2001       ;
+; VHDL Version                                                                    ; VHDL_1993          ; VHDL_1993          ;
+; State Machine Processing                                                        ; Auto               ; Auto               ;
+; Safe State Machine                                                              ; Off                ; Off                ;
+; Extract Verilog State Machines                                                  ; On                 ; On                 ;
+; Extract VHDL State Machines                                                     ; On                 ; On                 ;
+; Ignore Verilog initial constructs                                               ; Off                ; Off                ;
+; Iteration limit for constant Verilog loops                                      ; 5000               ; 5000               ;
+; Iteration limit for non-constant Verilog loops                                  ; 250                ; 250                ;
+; Add Pass-Through Logic to Inferred RAMs                                         ; On                 ; On                 ;
+; Infer RAMs from Raw Logic                                                       ; On                 ; On                 ;
+; Parallel Synthesis                                                              ; On                 ; On                 ;
+; DSP Block Balancing                                                             ; Auto               ; Auto               ;
+; NOT Gate Push-Back                                                              ; On                 ; On                 ;
+; Power-Up Don't Care                                                             ; On                 ; On                 ;
+; Remove Redundant Logic Cells                                                    ; Off                ; Off                ;
+; Remove Duplicate Registers                                                      ; On                 ; On                 ;
+; Ignore CARRY Buffers                                                            ; Off                ; Off                ;
+; Ignore CASCADE Buffers                                                          ; Off                ; Off                ;
+; Ignore GLOBAL Buffers                                                           ; Off                ; Off                ;
+; Ignore ROW GLOBAL Buffers                                                       ; Off                ; Off                ;
+; Ignore LCELL Buffers                                                            ; Off                ; Off                ;
+; Ignore SOFT Buffers                                                             ; On                 ; On                 ;
+; Limit AHDL Integers to 32 Bits                                                  ; Off                ; Off                ;
+; Optimization Technique                                                          ; Balanced           ; Balanced           ;
+; Carry Chain Length                                                              ; 70                 ; 70                 ;
+; Auto Carry Chains                                                               ; On                 ; On                 ;
+; Auto Open-Drain Pins                                                            ; On                 ; On                 ;
+; Perform WYSIWYG Primitive Resynthesis                                           ; Off                ; Off                ;
+; Auto ROM Replacement                                                            ; On                 ; On                 ;
+; Auto RAM Replacement                                                            ; On                 ; On                 ;
+; Auto DSP Block Replacement                                                      ; On                 ; On                 ;
+; Auto Shift Register Replacement                                                 ; Auto               ; Auto               ;
+; Allow Shift Register Merging across Hierarchies                                 ; Auto               ; Auto               ;
+; Auto Clock Enable Replacement                                                   ; On                 ; On                 ;
+; Strict RAM Replacement                                                          ; Off                ; Off                ;
+; Allow Synchronous Control Signals                                               ; On                 ; On                 ;
+; Force Use of Synchronous Clear Signals                                          ; Off                ; Off                ;
+; Auto Resource Sharing                                                           ; Off                ; Off                ;
+; Allow Any RAM Size For Recognition                                              ; Off                ; Off                ;
+; Allow Any ROM Size For Recognition                                              ; Off                ; Off                ;
+; Allow Any Shift Register Size For Recognition                                   ; Off                ; Off                ;
+; Use LogicLock Constraints during Resource Balancing                             ; On                 ; On                 ;
+; Ignore translate_off and synthesis_off directives                               ; Off                ; Off                ;
+; Timing-Driven Synthesis                                                         ; On                 ; On                 ;
+; Report Parameter Settings                                                       ; On                 ; On                 ;
+; Report Source Assignments                                                       ; On                 ; On                 ;
+; Report Connectivity Checks                                                      ; On                 ; On                 ;
+; Ignore Maximum Fan-Out Assignments                                              ; Off                ; Off                ;
+; Synchronization Register Chain Length                                           ; 3                  ; 3                  ;
+; Power Optimization During Synthesis                                             ; Normal compilation ; Normal compilation ;
+; HDL message level                                                               ; Level2             ; Level2             ;
+; Suppress Register Optimization Related Messages                                 ; Off                ; Off                ;
+; Number of Removed Registers Reported in Synthesis Report                        ; 5000               ; 5000               ;
+; Number of Swept Nodes Reported in Synthesis Report                              ; 5000               ; 5000               ;
+; Number of Inverted Registers Reported in Synthesis Report                       ; 100                ; 100                ;
+; Clock MUX Protection                                                            ; On                 ; On                 ;
+; Auto Gated Clock Conversion                                                     ; Off                ; Off                ;
+; Block Design Naming                                                             ; Auto               ; Auto               ;
+; SDC constraint protection                                                       ; Off                ; Off                ;
+; Synthesis Effort                                                                ; Auto               ; Auto               ;
+; Shift Register Replacement - Allow Asynchronous Clear Signal                    ; On                 ; On                 ;
+; Pre-Mapping Resynthesis Optimization                                            ; Off                ; Off                ;
+; Analysis & Synthesis Message Level                                              ; Medium             ; Medium             ;
+; Disable Register Merging Across Hierarchies                                     ; Auto               ; Auto               ;
+; Resource Aware Inference For Block RAM                                          ; On                 ; On                 ;
+; Automatic Parallel Synthesis                                                    ; On                 ; On                 ;
+; Partial Reconfiguration Bitstream ID                                            ; Off                ; Off                ;
++---------------------------------------------------------------------------------+--------------------+--------------------+
+
+
++----------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "XOR_M:xorG"                                                                         ;
++------+--------+----------+-------------------------------------------------------------------------------------+
+; Port ; Type   ; Severity ; Details                                                                             ;
++------+--------+----------+-------------------------------------------------------------------------------------+
+; y    ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++------+--------+----------+-------------------------------------------------------------------------------------+
+
+
++----------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "OR_M:orG"                                                                           ;
++------+--------+----------+-------------------------------------------------------------------------------------+
+; Port ; Type   ; Severity ; Details                                                                             ;
++------+--------+----------+-------------------------------------------------------------------------------------+
+; y    ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++------+--------+----------+-------------------------------------------------------------------------------------+
+
+
++----------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "AND_M:andG"                                                                         ;
++------+--------+----------+-------------------------------------------------------------------------------------+
+; Port ; Type   ; Severity ; Details                                                                             ;
++------+--------+----------+-------------------------------------------------------------------------------------+
+; y    ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++------+--------+----------+-------------------------------------------------------------------------------------+
+
+
++----------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "ShiftRight:srl"                                                                     ;
++------+--------+----------+-------------------------------------------------------------------------------------+
+; Port ; Type   ; Severity ; Details                                                                             ;
++------+--------+----------+-------------------------------------------------------------------------------------+
+; y    ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++------+--------+----------+-------------------------------------------------------------------------------------+
+
+
++----------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "ShiftLeft:sll"                                                                      ;
++------+--------+----------+-------------------------------------------------------------------------------------+
+; Port ; Type   ; Severity ; Details                                                                             ;
++------+--------+----------+-------------------------------------------------------------------------------------+
+; y    ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
+; v    ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++------+--------+----------+-------------------------------------------------------------------------------------+
+
+
++----------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "Div:div"                                                                            ;
++------+--------+----------+-------------------------------------------------------------------------------------+
+; Port ; Type   ; Severity ; Details                                                                             ;
++------+--------+----------+-------------------------------------------------------------------------------------+
+; Q    ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
+; R    ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
+; v    ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++------+--------+----------+-------------------------------------------------------------------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "Mult:mult"                                                                                                           ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------------------+
+; Port ; Type   ; Severity ; Details                                                                                                              ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------------------+
+; C    ; Output ; Warning  ; Output or bidir port (8 bits) is wider than the port expression (4 bits) it drives; bit(s) "C[7..4]" have no fanouts ;
+; C    ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed.                                  ;
+; v    ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed.                                  ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------------------+
+
+
++----------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "Suma:res"                                                                           ;
++------+--------+----------+-------------------------------------------------------------------------------------+
+; Port ; Type   ; Severity ; Details                                                                             ;
++------+--------+----------+-------------------------------------------------------------------------------------+
+; Cin  ; Input  ; Info     ; Stuck at VCC                                                                        ;
+; Sum  ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
+; Cout ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
+; v    ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++------+--------+----------+-------------------------------------------------------------------------------------+
+
+
++----------------------------------------+
+; Port Connectivity Checks: "Suma:sum"   ;
++------+-------+----------+--------------+
+; Port ; Type  ; Severity ; Details      ;
++------+-------+----------+--------------+
+; Cin  ; Input ; Info     ; Stuck at GND ;
++------+-------+----------+--------------+
+
+
++---------------------------------+
+; Analysis & Elaboration Messages ;
++---------------------------------+
+Info: *******************************************************************
+Info: Running Quartus Prime Analysis & Elaboration
+    Info: Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
+    Info: Processing started: Mon Aug 19 16:01:18 2024
+Info: Command: quartus_map --read_settings_files=on --write_settings_files=off Ejercicio1 -c Ejercicio1 --analysis_and_elaboration
+Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
+Info (20030): Parallel compilation is enabled and will use 6 of the 6 processors detected
+Info (12021): Found 1 design units, including 1 entities, in source file alu.sv
+    Info (12023): Found entity 1: ALU File: D:/TEC/II Semestre 2024/Taller/Lab2/Ejercicio1/ALU.sv Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file xor.sv
+    Info (12023): Found entity 1: XOR_M File: D:/TEC/II Semestre 2024/Taller/Lab2/Ejercicio1/XOR.sv Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file shiftright.sv
+    Info (12023): Found entity 1: ShiftRight File: D:/TEC/II Semestre 2024/Taller/Lab2/Ejercicio1/ShiftRight.sv Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file shiftleft.sv
+    Info (12023): Found entity 1: ShiftLeft File: D:/TEC/II Semestre 2024/Taller/Lab2/Ejercicio1/ShiftLeft.sv Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file or.sv
+    Info (12023): Found entity 1: OR_M File: D:/TEC/II Semestre 2024/Taller/Lab2/Ejercicio1/OR.sv Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file and.sv
+    Info (12023): Found entity 1: AND_M File: D:/TEC/II Semestre 2024/Taller/Lab2/Ejercicio1/AND.sv Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file sumadorcom.sv
+    Info (12023): Found entity 1: SumadorCom File: D:/TEC/II Semestre 2024/Taller/Lab2/Ejercicio1/SumadorCom.sv Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file suma.sv
+    Info (12023): Found entity 1: Suma File: D:/TEC/II Semestre 2024/Taller/Lab2/Ejercicio1/Suma.sv Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file mult.sv
+    Info (12023): Found entity 1: Mult File: D:/TEC/II Semestre 2024/Taller/Lab2/Ejercicio1/Mult.sv Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file div.sv
+    Info (12023): Found entity 1: Div File: D:/TEC/II Semestre 2024/Taller/Lab2/Ejercicio1/Div.sv Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file alu_tb.sv
+    Info (12023): Found entity 1: ALU_tb File: D:/TEC/II Semestre 2024/Taller/Lab2/Ejercicio1/ALU_tb.sv Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file dispconv.sv
+    Info (12023): Found entity 1: dispConv File: D:/TEC/II Semestre 2024/Taller/Lab2/Ejercicio1/dispConv.sv Line: 1
+Info (12127): Elaborating entity "ALU" for the top level hierarchy
+Warning (10240): Verilog HDL Always Construct warning at ALU.sv(36): inferring latch(es) for variable "tempCarry", which holds its previous value in one or more paths through the always construct File: D:/TEC/II Semestre 2024/Taller/Lab2/Ejercicio1/ALU.sv Line: 36
+Warning (10240): Verilog HDL Always Construct warning at ALU.sv(36): inferring latch(es) for variable "tempOf", which holds its previous value in one or more paths through the always construct File: D:/TEC/II Semestre 2024/Taller/Lab2/Ejercicio1/ALU.sv Line: 36
+Warning (10230): Verilog HDL assignment warning at ALU.sv(95): truncated value with size 32 to match size of target (1) File: D:/TEC/II Semestre 2024/Taller/Lab2/Ejercicio1/ALU.sv Line: 95
+Info (10041): Inferred latch for "tempOf" at ALU.sv(36) File: D:/TEC/II Semestre 2024/Taller/Lab2/Ejercicio1/ALU.sv Line: 36
+Info (10041): Inferred latch for "tempCarry" at ALU.sv(36) File: D:/TEC/II Semestre 2024/Taller/Lab2/Ejercicio1/ALU.sv Line: 36
+Info (12128): Elaborating entity "Suma" for hierarchy "Suma:sum" File: D:/TEC/II Semestre 2024/Taller/Lab2/Ejercicio1/ALU.sv Line: 20
+Warning (10230): Verilog HDL assignment warning at Suma.sv(32): truncated value with size 32 to match size of target (1) File: D:/TEC/II Semestre 2024/Taller/Lab2/Ejercicio1/Suma.sv Line: 32
+Warning (10230): Verilog HDL assignment warning at Suma.sv(36): truncated value with size 32 to match size of target (1) File: D:/TEC/II Semestre 2024/Taller/Lab2/Ejercicio1/Suma.sv Line: 36
+Info (12128): Elaborating entity "SumadorCom" for hierarchy "Suma:sum|SumadorCom:gen_for[0].SumCom" File: D:/TEC/II Semestre 2024/Taller/Lab2/Ejercicio1/Suma.sv Line: 21
+Info (12128): Elaborating entity "Mult" for hierarchy "Mult:mult" File: D:/TEC/II Semestre 2024/Taller/Lab2/Ejercicio1/ALU.sv Line: 22
+Warning (10230): Verilog HDL assignment warning at Mult.sv(20): truncated value with size 32 to match size of target (1) File: D:/TEC/II Semestre 2024/Taller/Lab2/Ejercicio1/Mult.sv Line: 20
+Info (12128): Elaborating entity "Div" for hierarchy "Div:div" File: D:/TEC/II Semestre 2024/Taller/Lab2/Ejercicio1/ALU.sv Line: 23
+Warning (10230): Verilog HDL assignment warning at Div.sv(20): truncated value with size 32 to match size of target (4) File: D:/TEC/II Semestre 2024/Taller/Lab2/Ejercicio1/Div.sv Line: 20
+Warning (10230): Verilog HDL assignment warning at Div.sv(27): truncated value with size 32 to match size of target (1) File: D:/TEC/II Semestre 2024/Taller/Lab2/Ejercicio1/Div.sv Line: 27
+Info (12128): Elaborating entity "ShiftLeft" for hierarchy "ShiftLeft:sll" File: D:/TEC/II Semestre 2024/Taller/Lab2/Ejercicio1/ALU.sv Line: 25
+Warning (10230): Verilog HDL assignment warning at ShiftLeft.sv(12): truncated value with size 32 to match size of target (1) File: D:/TEC/II Semestre 2024/Taller/Lab2/Ejercicio1/ShiftLeft.sv Line: 12
+Info (12128): Elaborating entity "ShiftRight" for hierarchy "ShiftRight:srl" File: D:/TEC/II Semestre 2024/Taller/Lab2/Ejercicio1/ALU.sv Line: 26
+Info (12128): Elaborating entity "AND_M" for hierarchy "AND_M:andG" File: D:/TEC/II Semestre 2024/Taller/Lab2/Ejercicio1/ALU.sv Line: 28
+Info (12128): Elaborating entity "OR_M" for hierarchy "OR_M:orG" File: D:/TEC/II Semestre 2024/Taller/Lab2/Ejercicio1/ALU.sv Line: 29
+Info (12128): Elaborating entity "XOR_M" for hierarchy "XOR_M:xorG" File: D:/TEC/II Semestre 2024/Taller/Lab2/Ejercicio1/ALU.sv Line: 30
+Info (12128): Elaborating entity "dispConv" for hierarchy "dispConv:numDisplay" File: D:/TEC/II Semestre 2024/Taller/Lab2/Ejercicio1/ALU.sv Line: 102
+Warning (10272): Verilog HDL Case Statement warning at dispConv.sv(15): case item expression covers a value already covered by a previous case item File: D:/TEC/II Semestre 2024/Taller/Lab2/Ejercicio1/dispConv.sv Line: 15
+Warning (10272): Verilog HDL Case Statement warning at dispConv.sv(16): case item expression covers a value already covered by a previous case item File: D:/TEC/II Semestre 2024/Taller/Lab2/Ejercicio1/dispConv.sv Line: 16
+Warning (12241): 1 hierarchies have connectivity warnings - see the Connectivity Checks report folder
+Info: Quartus Prime Analysis & Elaboration was successful. 0 errors, 13 warnings
+    Info: Peak virtual memory: 4769 megabytes
+    Info: Processing ended: Mon Aug 19 16:01:25 2024
+    Info: Elapsed time: 00:00:07
+    Info: Total CPU time (on all processors): 00:00:18
+
+
