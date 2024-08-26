@@ -29,6 +29,13 @@ module ALU#(parameter N = 4)
 		OR_M  #(.N(N)) orG(.a(a), .b(b), .y(orResult));
 		XOR_M #(.N(N)) xorG(.a(a), .b(b), .y(xorResult));
 	 
+	 always @(opCode) begin
+		if (opCode == 4'b1111) begin
+			tempCode = tempCode;
+		end else begin
+			tempCode = ~opCode;
+		end
+	 end
 	 
 	 always @(*)
 	 
