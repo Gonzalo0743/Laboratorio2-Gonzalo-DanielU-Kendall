@@ -1,0 +1,269 @@
+|TimingAnalysisSystem
+a[0] => a[0].IN1
+a[1] => a[1].IN1
+b[0] => b[0].IN1
+b[1] => b[1].IN1
+s[0] => s[0].IN1
+s[1] => s[1].IN1
+s[2] => s[2].IN1
+s[3] => s[3].IN1
+clk => clk.IN2
+rst => rst.IN2
+output_reg[0] << registerOutput:regOut.port11
+output_reg[1] << registerOutput:regOut.port11
+flags_aux_out[0] << registerOutput:regOut.port7
+flags_aux_out[1] << registerOutput:regOut.port8
+flags_aux_out[2] << registerOutput:regOut.port9
+flags_aux_out[3] << registerOutput:regOut.port10
+
+
+|TimingAnalysisSystem|registerInput:regIn
+sel[0] => regSel[0]~reg0.DATAIN
+sel[1] => regSel[1]~reg0.DATAIN
+sel[2] => regSel[2]~reg0.DATAIN
+sel[3] => regSel[3]~reg0.DATAIN
+a[0] => regA[0]~reg0.DATAIN
+a[1] => regA[1]~reg0.DATAIN
+b[0] => regB[0]~reg0.DATAIN
+b[1] => regB[1]~reg0.DATAIN
+clk => regSel[0]~reg0.CLK
+clk => regSel[1]~reg0.CLK
+clk => regSel[2]~reg0.CLK
+clk => regSel[3]~reg0.CLK
+clk => regB[0]~reg0.CLK
+clk => regB[1]~reg0.CLK
+clk => regA[0]~reg0.CLK
+clk => regA[1]~reg0.CLK
+reset => regSel[0]~reg0.ACLR
+reset => regSel[1]~reg0.ACLR
+reset => regSel[2]~reg0.ACLR
+reset => regSel[3]~reg0.ACLR
+reset => regB[0]~reg0.ACLR
+reset => regB[1]~reg0.ACLR
+reset => regA[0]~reg0.ACLR
+reset => regA[1]~reg0.ACLR
+regA[0] <= regA[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+regA[1] <= regA[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+regB[0] <= regB[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+regB[1] <= regB[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+regSel[0] <= regSel[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+regSel[1] <= regSel[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+regSel[2] <= regSel[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+regSel[3] <= regSel[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|TimingAnalysisSystem|ALU:dut
+a[0] => a[0].IN9
+a[1] => a[1].IN9
+b[0] => b[0].IN6
+b[1] => b[1].IN6
+opCode[0] => Mux0.IN9
+opCode[0] => Mux1.IN9
+opCode[0] => Decoder0.IN3
+opCode[0] => Mux2.IN13
+opCode[0] => Mux3.IN19
+opCode[0] => Equal1.IN3
+opCode[0] => Equal2.IN3
+opCode[1] => Mux0.IN8
+opCode[1] => Mux1.IN8
+opCode[1] => Decoder0.IN2
+opCode[1] => Mux2.IN12
+opCode[1] => Mux3.IN18
+opCode[1] => Equal1.IN2
+opCode[1] => Equal2.IN2
+opCode[2] => Mux0.IN7
+opCode[2] => Mux1.IN7
+opCode[2] => Decoder0.IN1
+opCode[2] => Mux2.IN11
+opCode[2] => Mux3.IN17
+opCode[2] => Equal1.IN1
+opCode[2] => Equal2.IN1
+opCode[3] => Mux0.IN6
+opCode[3] => Mux1.IN6
+opCode[3] => Decoder0.IN0
+opCode[3] => Mux2.IN10
+opCode[3] => Mux3.IN16
+opCode[3] => Equal1.IN0
+opCode[3] => Equal2.IN0
+out[0] <= Mux1.DB_MAX_OUTPUT_PORT_TYPE
+out[1] <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
+ZFlag <= Equal0.DB_MAX_OUTPUT_PORT_TYPE
+NFlag <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
+CFlag <= CFlag.DB_MAX_OUTPUT_PORT_TYPE
+VFlag <= tempOf.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|TimingAnalysisSystem|ALU:dut|OpSuma:sum
+A[0] => A[0].IN1
+A[1] => A[1].IN1
+B[0] => B[0].IN1
+B[1] => B[1].IN1
+Cin => Cin.IN1
+Sum[0] <= SumadorCompleto:gen_for[0].SumCom.Sum
+Sum[1] <= SumadorCompleto:gen_for[1].SumCom.Sum
+Cout <= SumadorCompleto:gen_for[1].SumCom.Cout
+v <= v.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|TimingAnalysisSystem|ALU:dut|OpSuma:sum|SumadorCompleto:gen_for[0].SumCom
+A => Sum.IN0
+A => Cout.IN0
+B => Sum.IN1
+B => Cout.IN1
+Cin => Sum.IN1
+Cin => Cout.IN1
+Sum <= Sum.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|TimingAnalysisSystem|ALU:dut|OpSuma:sum|SumadorCompleto:gen_for[1].SumCom
+A => Sum.IN0
+A => Cout.IN0
+B => Sum.IN1
+B => Cout.IN1
+Cin => Sum.IN1
+Cin => Cout.IN1
+Sum <= Sum.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|TimingAnalysisSystem|ALU:dut|OpSuma:res
+A[0] => A[0].IN1
+A[1] => A[1].IN1
+B[0] => B[0].IN1
+B[1] => B[1].IN1
+Cin => Cin.IN1
+Sum[0] <= SumadorCompleto:gen_for[0].SumCom.Sum
+Sum[1] <= SumadorCompleto:gen_for[1].SumCom.Sum
+Cout <= SumadorCompleto:gen_for[1].SumCom.Cout
+v <= v.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|TimingAnalysisSystem|ALU:dut|OpSuma:res|SumadorCompleto:gen_for[0].SumCom
+A => Sum.IN0
+A => Cout.IN0
+B => Sum.IN1
+B => Cout.IN1
+Cin => Sum.IN1
+Cin => Cout.IN1
+Sum <= Sum.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|TimingAnalysisSystem|ALU:dut|OpSuma:res|SumadorCompleto:gen_for[1].SumCom
+A => Sum.IN0
+A => Cout.IN0
+B => Sum.IN1
+B => Cout.IN1
+Cin => Sum.IN1
+Cin => Cout.IN1
+Sum <= Sum.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|TimingAnalysisSystem|ALU:dut|OpMult:mult
+A[0] => TempC.DATAB
+A[0] => Add0.IN4
+A[1] => TempC.DATAB
+A[1] => Add0.IN3
+B[0] => TempC.OUTPUTSELECT
+B[0] => TempC.OUTPUTSELECT
+B[1] => TempC[3].OUTPUTSELECT
+B[1] => TempC[2].OUTPUTSELECT
+B[1] => TempC.OUTPUTSELECT
+C[0] <= TempC.DB_MAX_OUTPUT_PORT_TYPE
+C[1] <= TempC.DB_MAX_OUTPUT_PORT_TYPE
+C[2] <= TempC[2].DB_MAX_OUTPUT_PORT_TYPE
+C[3] <= TempC[3].DB_MAX_OUTPUT_PORT_TYPE
+v <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|TimingAnalysisSystem|ALU:dut|OpDiv:div
+A[0] => LessThan1.IN2
+A[0] => Add1.IN4
+A[0] => tempR.DATAA
+A[1] => LessThan0.IN2
+A[1] => Add0.IN4
+A[1] => tempR.DATAA
+B[0] => LessThan0.IN4
+B[0] => LessThan1.IN4
+B[0] => Add0.IN3
+B[0] => Add1.IN2
+B[0] => Equal0.IN31
+B[1] => LessThan0.IN3
+B[1] => LessThan1.IN3
+B[1] => Add0.IN2
+B[1] => Add1.IN1
+B[1] => Equal0.IN30
+Q[0] <= LessThan1.DB_MAX_OUTPUT_PORT_TYPE
+Q[1] <= LessThan0.DB_MAX_OUTPUT_PORT_TYPE
+R[0] <= tempR.DB_MAX_OUTPUT_PORT_TYPE
+R[1] <= tempR.DB_MAX_OUTPUT_PORT_TYPE
+v <= Equal0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|TimingAnalysisSystem|ALU:dut|ShiftLeft:sll
+a[0] => y[1].DATAIN
+a[1] => v.DATAIN
+y[0] <= <GND>
+y[1] <= a[0].DB_MAX_OUTPUT_PORT_TYPE
+v <= a[1].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|TimingAnalysisSystem|ALU:dut|ShiftRight:srl
+a[0] => ~NO_FANOUT~
+a[1] => y[0].DATAIN
+y[0] <= a[1].DB_MAX_OUTPUT_PORT_TYPE
+y[1] <= <GND>
+
+
+|TimingAnalysisSystem|ALU:dut|AndModule:andG
+a[0] => and_op[0].and_gate.IN0
+a[1] => and_op[1].and_gate.IN0
+b[0] => and_op[0].and_gate.IN1
+b[1] => and_op[1].and_gate.IN1
+y[0] <= and_op[0].and_gate.DB_MAX_OUTPUT_PORT_TYPE
+y[1] <= and_op[1].and_gate.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|TimingAnalysisSystem|ALU:dut|OrModule:orG
+a[0] => or_op[0].or_gate.IN0
+a[1] => or_op[1].or_gate.IN0
+b[0] => or_op[0].or_gate.IN1
+b[1] => or_op[1].or_gate.IN1
+y[0] <= or_op[0].or_gate.DB_MAX_OUTPUT_PORT_TYPE
+y[1] <= or_op[1].or_gate.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|TimingAnalysisSystem|ALU:dut|XorModule:xorG
+a[0] => xor_op[0].xor_gate.IN0
+a[1] => xor_op[1].xor_gate.IN0
+b[0] => xor_op[0].xor_gate.IN1
+b[1] => xor_op[1].xor_gate.IN1
+y[0] <= xor_op[0].xor_gate.DB_MAX_OUTPUT_PORT_TYPE
+y[1] <= xor_op[1].xor_gate.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|TimingAnalysisSystem|registerOutput:regOut
+result[0] => ~NO_FANOUT~
+result[1] => ~NO_FANOUT~
+clk => reg_Vflag~reg0.CLK
+clk => reg_Cflag~reg0.CLK
+clk => reg_Zflag~reg0.CLK
+clk => reg_Nflag~reg0.CLK
+rst => reg_Vflag~reg0.ACLR
+rst => reg_Cflag~reg0.ACLR
+rst => reg_Zflag~reg0.ACLR
+rst => reg_Nflag~reg0.ACLR
+Nflag => reg_Nflag~reg0.DATAIN
+Zflag => reg_Zflag~reg0.DATAIN
+Cflag => reg_Cflag~reg0.DATAIN
+Vflag => reg_Vflag~reg0.DATAIN
+reg_Nflag <= reg_Nflag~reg0.DB_MAX_OUTPUT_PORT_TYPE
+reg_Zflag <= reg_Zflag~reg0.DB_MAX_OUTPUT_PORT_TYPE
+reg_Cflag <= reg_Cflag~reg0.DB_MAX_OUTPUT_PORT_TYPE
+reg_Vflag <= reg_Vflag~reg0.DB_MAX_OUTPUT_PORT_TYPE
+regOutput[0] <= <GND>
+regOutput[1] <= <GND>
+
+

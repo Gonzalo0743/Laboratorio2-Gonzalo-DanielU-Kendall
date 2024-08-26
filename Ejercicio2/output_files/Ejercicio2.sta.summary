@@ -1,0 +1,101 @@
+------------------------------------------------------------
+Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1100mV 85C Model Setup 'registerInput:regIn|regSel[1]'
+Slack : -4.730
+TNS   : -8.814
+
+Type  : Slow 1100mV 85C Model Setup 'clk'
+Slack : -3.593
+TNS   : -10.355
+
+Type  : Slow 1100mV 85C Model Hold 'clk'
+Slack : -2.581
+TNS   : -2.581
+
+Type  : Slow 1100mV 85C Model Hold 'registerInput:regIn|regSel[1]'
+Slack : 0.453
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'clk'
+Slack : -0.394
+TNS   : -6.387
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'registerInput:regIn|regSel[1]'
+Slack : 0.386
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Setup 'registerInput:regIn|regSel[1]'
+Slack : -4.834
+TNS   : -9.037
+
+Type  : Slow 1100mV 0C Model Setup 'clk'
+Slack : -3.598
+TNS   : -10.014
+
+Type  : Slow 1100mV 0C Model Hold 'clk'
+Slack : -2.493
+TNS   : -2.493
+
+Type  : Slow 1100mV 0C Model Hold 'registerInput:regIn|regSel[1]'
+Slack : 0.373
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'clk'
+Slack : -0.394
+TNS   : -7.120
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'registerInput:regIn|regSel[1]'
+Slack : 0.360
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Setup 'registerInput:regIn|regSel[1]'
+Slack : -2.141
+TNS   : -3.916
+
+Type  : Fast 1100mV 85C Model Setup 'clk'
+Slack : -2.119
+TNS   : -6.169
+
+Type  : Fast 1100mV 85C Model Hold 'clk'
+Slack : -1.522
+TNS   : -1.522
+
+Type  : Fast 1100mV 85C Model Hold 'registerInput:regIn|regSel[1]'
+Slack : 0.299
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'clk'
+Slack : -0.086
+TNS   : -0.928
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'registerInput:regIn|regSel[1]'
+Slack : 0.357
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Setup 'registerInput:regIn|regSel[1]'
+Slack : -2.032
+TNS   : -3.738
+
+Type  : Fast 1100mV 0C Model Setup 'clk'
+Slack : -1.577
+TNS   : -4.523
+
+Type  : Fast 1100mV 0C Model Hold 'clk'
+Slack : -1.502
+TNS   : -1.502
+
+Type  : Fast 1100mV 0C Model Hold 'registerInput:regIn|regSel[1]'
+Slack : 0.248
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'clk'
+Slack : -0.085
+TNS   : -1.001
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'registerInput:regIn|regSel[1]'
+Slack : 0.371
+TNS   : 0.000
+
+------------------------------------------------------------
